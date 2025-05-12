@@ -92,3 +92,31 @@ We used the Google Gemini 1.5 Flash model via the official Python SDK (google.ge
     ```
   - The response is parsed using a custom extract_json() function.
   - Each product's output is stored in a dictionary with keys: image_id, and qa_data (list of Q&A dictionaries).
+
+
+The final generated VQA dataset contains:
+- `image_id:` ID of the image used
+- `qa_data:` List of 4–6 dictionaries, each containing:
+    - `question:` A single question about the image
+    - `answer:` A one-word answer grounded in the image
+
+Here is an eaxmple of the same 
+
+```
+{
+  "19502": {
+    "image_id": "abc123",
+    "qa_data": [
+      {
+        "question": "What material is the visible sole made of?",
+        "answer": "Rubber"
+      },
+      {
+        "question": "What color are the laces?",
+        "answer": "White"
+      }
+    ]
+  }
+}
+
+```
