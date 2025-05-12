@@ -34,10 +34,11 @@ The provided code (samplelistings.ipynb) serves as the foundation for preprocess
   - Each product listing is linked with its corresponding image path by resolving relative file paths into full paths.
   - Each listing can have multiple images, but this code selects one primary image per product.
 
-    `def get_image_path(product_id, image_id):
+    ```
+    def get_image_path(product_id, image_id):
       return f"/kaggle/input/abo-dataset-small/images256/{product_id}/{image_id}.jpg"
     sampled_df['image_path'] = sampled_df.apply(lambda x: get_image_path(x['product_id'], x['image_id']), axis=1)
-  `
+    ```
   
   - This linkage is essential for multimodal prompt generation, ensuring the model sees the correct image.
   - File paths are organized hierarchically in the ABO dataset (images256/<product_id>/<image_id>.jpg).
