@@ -62,3 +62,24 @@ The provided code (samplelistings.ipynb) serves as the foundation for preprocess
   
   - Output format (.json) is ideal for giving into prompt-based systems.
   - JSON export allows for easy tracking, error detection, and reuse.
+
+Now coming to the **VQA Question generation** part
+
+We used the Google Gemini 1.5 Flash model via the official Python SDK (google.generativeai) to generate multimodal Visual Question Answering (VQA) data. Gemini 1.5 Flash was selected for its support for image + text input, high-speed inference, and capability to perform fine-grained visual reasoning required for this task.
+**Prompt Template Definition**
+  - A prompt template is given to guide the model into generating appropriate single-word answer questions. The prompt gives instructions and examples.
+  - The prompt is worded to request visual grounding and single-word answers, adhering to project guidelines.
+  - Including metadata like title and category provides context and improves question relevance.
+  - This prompt encourages the model to focus on visually inferable attributes like color, type, texture, etc.
+
+**Google Gemini API Integration**
+  - A JSON file of product listings is loaded.
+  - The main_image_id for each product is used to construct the full image path.
+  - PIL is used to open the image, and the Gemini SDK uploads it for use in multimodal input.
+  - A unique prompt is dynamically generated per product, inserting the specific title and category as context.
+  - The image and text prompt are sent to gemini-1.5-flash using:
+    ```
+    response = model.generate_content([image, prompt])
+    ```
+  - The response is parsed using a custom extract_json() function.
+  - Each product's output is stored in a dictionary with keys: image_id, and qa_data (list of Q&A dictionaries).
