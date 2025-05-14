@@ -120,3 +120,22 @@ Here is an eaxmple of the same
 }
 
 ```
+## Baseline model
+**Model used**: BLIP-2 (Salesforce BLIP-2 Pretrained on Coco)
+**Source**: Hugging Face – Salesforce/blip2-opt-2.7b
+**Setup**: 
+  - Model and processor are downloaded from Hugging Face.
+  - Loaded to GPU (cuda) for faster inference.
+**Pipeline**:  We have taken 80 : 20 split for training and testing the data. Each image from the dataset is loaded and paired with its corresponding question.The image and question are preprocessed via the BLIP-2 processor and fed to the model for answer generation. The model receives multimodal input (image + text question). The generated output is a free-form text answer(a short phrase or word).
+
+**Evaluation metrics for baseline model**:
+We are creating a CSV file of model predictions along with the ground truths (`predictions_results.csv`)  and filtering out the bad/invalid entries for further evalutaion. We are also normalizing text (turning them all into lower case) for better analysis and we have calculated different metrics and below are the results for the same.
+
+```
+Accuracy      : 0.3846
+BERTScore F1  : 0.9764
+ROUGE-L       : 0.3935
+Token F1      : 0.3871
+BLEU          : 0.0690
+```
+## Fine tuning the VQA model using LoRA (Low rank adaptation)
