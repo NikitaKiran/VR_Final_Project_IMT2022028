@@ -139,3 +139,32 @@ Token F1      : 0.3871
 BLEU          : 0.0690
 ```
 ## Fine tuning the VQA model using LoRA (Low rank adaptation)
+We experimented with multiple LoRA configurations varying in rank, alpha values, and module inclusion to study trade-offs between efficiency and accuracy. Here are the different configurations we have tried 
+  - C1 = rank = 8, LoRA alpha = 8 without dense layer
+  - C2 = rank = 8, LoRA alpha = 16 with dense layer
+  - C3 = rank = 16, LoRA alpha = 16 without dense layer
+  - C4 = rank = 32, LoRA alpha = 32 using DoRA with dense layer
+  - C5 = rank = 32, LoRA alpha = 32 without dense layer
+
+**Impact of LoRA rank and alpha values**: 
+Higher values of rank and alpha lead to more capacity for adaptation but also higher compute/memory cost. Increasing the rank and alpha from 8→16 (C1 → C3) without using dense layers led to performance improvement i.e., accuracy went from 67% to 71%. Lower values of rank and alpha are more efficient but may underfit in low-resource settings. Mid-point like C3 offers a balance. Too high (r=32) might over-parameterize or overfit, especially with poor adapter design or training.
+
+**Impact of including dense layer**: 
+Only rank = 8 and alpha = 16 explicitly includes the dense module in target_modules. This configuration allows LoRA to adapt more of the feed-forward network, potentially improving generalization on visual-language tasks. Including dense improved performance slightly in early epochs, especially for fine-grained questions (e.g., identifying object attributes). Including the dense layer (as in C2 and C4) degraded performance significantly, possibly due to overfitting.
+
+**DoRA (Decoposed Rank Adaptation)**: 
+DoRA is intended to improve adaptation by separately modeling direction and scale. DoRA did not improve performance compared to non-DoRA settings at the same rank (C4 vs C5). Both performed equally poorly. This suggests that DoRA may not be beneficial for the BLIP model.
+
+## Evaluation Metrics for Fine-tuned BLIP Configurations
+
+| Config Name            | LoRA Rank (r) | Alpha (α) | Accuracy | BERTScore-F1  | ROUGE-L  | Token F1 | BLEU   |
+|------------------------|---------------|-----------|----------|---------------|----------|----------|--------|
+| 8_8_no_dense (C1)      | 8             | 8         | 0.6700   | 0.9859        | 0.6800   | 0.6700   | 0.1191 |
+| 8_16_dense (C2)        | 8             | 16        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
+| 16_16_no_dense (C3)    | 16            | 16        | 0.7100   | 0.9896        | 0.7200   | 0.7100   | 0.1263 |
+| 32_32_dora (C4)        | 32            | 32        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
+| 32_32_no_dense (C5)    | 32            | 32        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
+
+- 16_16_no_dense(C3) achieved the highest scores across all metrics.
+- Configurations with r=32 and α=32 (both with and without DoRA or dense modules) performed poorly indicating overfitting. This Ssggests that higher rank values do not guarantee better performance and may lead to degradation.
+- The 8_8_no_dense model showed decent performance (67% accuracy), making it a lightweight yet effective choice. However, it was consistently outperformed by the 16_16_no_dense model, showing that moderate rank (r=16) is a better tradeoff between model size and accuracy.
