@@ -121,12 +121,22 @@ Here is an eaxmple of the same
 
 ```
 ## Baseline model
-**Model used**: BLIP-2 (Salesforce BLIP-2 Pretrained on Coco)
-**Source**: Hugging Face – Salesforce/blip2-opt-2.7b
+
+We experimented with several popular vision-language models including VILT, CLIP, BLIP-2, and GIT, but each had limitations that made them less suitable for our VQA task:
+  - VILT: Although lightweight, VILT produced low accuracy and often generated full sentences rather than short or single-word answers.
+  - CLIP: Required a predefined dictionary of words and computed probabilities over this set, resulting in significant overhead and limiting flexibility in open-ended answer generation.
+  - BLIP-2: Needed manually written prompts to perform well and was much slower during inference. It also tended to produce longer sentence-based answers.
+  - GIT: Failed to perform on our dataset and produced zero accuracy.
+Due to these constraints, we selected BLIP (Salesforce BLIP-VQA) as our base model. It supports direct image-question answering without excessive prompt engineering or reliance on constrained answer sets, and it performs reliably with short, relevant answers—making it a strong fit for visual question answering.
+
+
+**Model used**: BLIP
+**Source**: Hugging Face – Salesforce/blip-vqa-base
 **Setup**: 
   - Model and processor are downloaded from Hugging Face.
   - Loaded to GPU (cuda) for faster inference.
-**Pipeline**:  We have taken 80 : 20 split for training and testing the data. Each image from the dataset is loaded and paired with its corresponding question.The image and question are preprocessed via the BLIP-2 processor and fed to the model for answer generation. The model receives multimodal input (image + text question). The generated output is a free-form text answer(a short phrase or word).
+**Pipeline**:  We have taken 80 : 20 split for training and testing the data. Each image from the dataset is loaded and paired with its corresponding question.The image and question are preprocessed via the BLIP processor and fed to the model for answer generation. The model receives multimodal input (image + text question). The generated output is a free-form text answer(a short phrase or word).
+
 
 **Evaluation metrics for baseline model**:
 We are creating a CSV file of model predictions along with the ground truths (`predictions_results.csv`)  and filtering out the bad/invalid entries for further evalutaion. We are also normalizing text (turning them all into lower case) for better analysis and we have calculated different metrics and below are the results for the same.
