@@ -416,7 +416,7 @@ We have also tried fien-tuning on VILT but it had high complexity, high resource
 
 The dataset was very large to train upon and even though we have used accelerator, it was not quite useful. It took minimum of 15-20 hrs for training on the full dataset we have generated.
 
-The dataset was considerably large, and despite utilizing accelerators, the training process waws still time-consuming. Training typically required a minimum of 15 to 20 hours on the full dataset we have generated.
+We also tried ViLT fine-tuning using LoRA but the architecture itself was too complex and GPU accelerators available weren't enough for running on a limited dataset too 
 
 ## Dependencies
 
