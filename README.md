@@ -161,6 +161,18 @@ Token F1      : 0.1300
 BLEU          : 0.0231
 ```
 
+We have also done training using VILT and here are the metrics for it 
+
+```
+Accuracy      : 0.2967
+BERTScore F1  : 0.9768
+ROUGE-L       : 0.2995
+Token F1      : 0.2975
+BLEU          : 0.0529
+```
+
+As BLIP had better accuracy we have proceeded with it.
+
 ## Fine tuning the VQA model using LoRA (Low rank adaptation)
 We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for Visual Question Answering (VQA) using the LoRA (Low-Rank Adaptation) technique to efficiently adapt a pre-trained transformer model. Below is a detailed explanation of the code implementation.
 
@@ -174,7 +186,8 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
     model = BlipForQuestionAnswering.from_pretrained("Salesforce/blip-vqa-base")
     processor = BlipProcessor.from_pretrained("Salesforce/blip-vqa-base")
    ```
-   The above code loads the pre-trained BLIP model and its corresponding processor, which is responsible for preparing both text and image inputs for the model.
+   
+   - The above code loads the pre-trained BLIP model and its corresponding processor, which is responsible for preparing both text and image inputs for the model.
   
 2. **LoRA Configuration and PEFT Integration:**
    ```
@@ -186,15 +199,20 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
     bias="none",
     )
     ```
+   
    - Sets the LoRA configuration parameters for fine-tuning the attention and feedforward layers of the model.
+     
    ```
     model = prepare_model_for_kbit_training(model)
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
    ```
+   
    - Prepares the model for parameter-efficient fine-tuning and prints the number of trainable parameters.
      
+     
 3. **Dataset Preparation:**
+
    ```
    class CSVVQADataset(torch.utils.data.Dataset):
     def _init_(self, dataframe, processor):
@@ -211,16 +229,20 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
         answer = item['answer']
         ...
    ```
+   
    - Defines a custom PyTorch dataset that reads from a CSV file.
    - Processes each item by loading the image, question, and answer, then applies the BLIP processor to create inputs and labels.
      
-4. **Train-Validation Split:**
+5. **Train-Validation Split:**
+
    ```
    train_df, valid_df = train_test_split(df, test_size=0.2, random_state=42)
    ```
+
    - Splits the data into 80% training and 20% validation.
      
-5. **DataLoader Creation:**
+7. **DataLoader Creation:**
+
    ```
     train_dataset = CSVVQADataset(train_df, processor)
     valid_dataset = CSVVQADataset(valid_df, processor)
@@ -228,21 +250,27 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
     train_dataloader = DataLoader(train_dataset, batch_size=3, shuffle=True, pin_memory=True)
     valid_dataloader = DataLoader(valid_dataset, batch_size=3, shuffle=False, pin_memory=True)
    ```
+
    - Creates DataLoader objects for batch-wise processing during training and validation.
      
-6. **Training Preparation:**
+9. **Training Preparation:**
+
    ```
    optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
    scaler = torch.cuda.amp.GradScaler()
    ```
+
    - Uses the AdamW optimizer and mixed-precision training with automatic gradient scaling.
+
    ```
    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
    model.to(device)
    ```
+
    - Detects and sets the training device (GPU if available).
      
-7. **Training and Validation Loop:**
+11. **Training and Validation Loop:**
+   
    ```
    for epoch in range(4):
     model.train()
@@ -259,7 +287,9 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
         scaler.update()
         train_loss += loss.item()
    ```
+   
    - Trains the model over multiple epochs using mixed-precision to speed up training.
+   
    ```
        model.eval()
     eval_loss = 0
@@ -272,15 +302,19 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
                 loss = outputs.loss
             eval_loss += loss.item()
    ```
+   
    - Evaluates the model on validation data in inference mode.
+   
    ```
     train_loss /= len(train_dataloader)
     eval_loss /= len(valid_dataloader)
     tracking_information.append((train_loss, eval_loss))
    ```
+   
    - Averages the loss over all batches.
      
-8. **Model Checkpointing and Early Stopping:**
+11. **Model Checkpointing and Early Stopping:**
+   
    ```
    if eval_loss < min_eval_loss:
     min_eval_loss = eval_loss
@@ -292,17 +326,21 @@ We arefine-tuning the BLIP (Bootstrapping Language-Image Pre-training) model for
         if early_stopping_hook >= patience:
             break
    ```
+   
    - Saves the best model if validation loss improves.
    - Implements early stopping to prevent overfitting.
      
-9. **Saving Training History:**
+11. **Saving Training History:**
+
     ```
     pickle.dump(tracking_information, open("tracking_info.pkl", "wb"))
     ```
+
     - Saves training and validation loss history for further analysis.
 
 We experimented with multiple LoRA configurations varying in rank, alpha values, and module inclusion to study trade-offs between efficiency and accuracy. 
 Here is the basic template of the LoRA finetuning.
+
 ```
 from peft import get_peft_model, LoraConfig, prepare_model_for_kbit_training
 
