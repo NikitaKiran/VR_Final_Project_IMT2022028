@@ -149,7 +149,7 @@ Token F1      : 0.3871
 BLEU          : 0.0690
 ```
 
-We have also trained the baseline model with a part of the dataset and more number of epochs and here the metrics for it.
+We have also trained the baseline model with a part of the dataset (frac = 0.3) and 4 epochs and here the metrics for it.
 
 ```
 Accuracy      : 0.1300
