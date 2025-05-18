@@ -148,13 +148,43 @@ ROUGE-L       : 0.3935
 Token F1      : 0.3871
 BLEU          : 0.0690
 ```
+
+We have also trained the baseline model with a part of the dataset and more number of epochs and here the metrics for it.
+
+```
+Accuracy      : 0.1300
+BERTScore F1  : 0.9736
+ROUGE-L       : 0.1300
+Token F1      : 0.1300
+BLEU          : 0.0231
+```
+
 ## Fine tuning the VQA model using LoRA (Low rank adaptation)
-We experimented with multiple LoRA configurations varying in rank, alpha values, and module inclusion to study trade-offs between efficiency and accuracy. Here are the different configurations we have tried 
-  - C1 = rank = 8, LoRA alpha = 8 without dense layer
-  - C2 = rank = 8, LoRA alpha = 16 with dense layer
-  - C3 = rank = 16, LoRA alpha = 16 without dense layer
-  - C4 = rank = 32, LoRA alpha = 32 using DoRA with dense layer
-  - C5 = rank = 32, LoRA alpha = 32 without dense layer
+We experimented with multiple LoRA configurations varying in rank, alpha values, and module inclusion to study trade-offs between efficiency and accuracy. 
+Here is the basic template of the LoRA finetuning.
+```
+from peft import get_peft_model, LoraConfig, prepare_model_for_kbit_training
+
+lora_config = LoraConfig(
+    # use_rslora = True,
+    init_lora_weights = "pissa",
+    r=16,
+    lora_alpha=16,
+    target_modules=["query", "value", "projection", "fc1", "fc2", "key", "qkv"],
+    lora_dropout=0.1,
+    bias="none",
+)
+```
+
+Here are the different configurations we have tried. C1 to C7 have been trained on a part of the dataset with more number of epochs.
+  - C1 = rank = 8, LoRA alpha = 8 without dense layer, Frac = 0.3
+  - C2 = rank = 8, LoRA alpha = 16 with dense layer, Frac = 0.3
+  - C3 = rank = 16, LoRA alpha = 16 without dense layer, Frac = 0.3
+  - C4 = rank = 32, LoRA alpha = 32 using DoRA with dense layer, Frac = 0.3
+  - C5 = rank = 32, LoRA alpha = 32 without dense layer, Frac = 0.3
+  - C6 = rank = 16, LoRA alpha = 16 using RSLoRA without dense layer and 2 epochs, Frac = 0.3
+  - C7 = rank = 16, LoRA alpha = 16 using PISSA without dense layer and 2 epochs, Frac = 0.4
+  - C8 = rank = 16, LoRA alpha = 16, without dense layer on full dataset and 1 epoch, Frac = 1
 
 **Impact of LoRA rank and alpha values**: 
 Higher values of rank and alpha lead to more capacity for adaptation but also higher compute/memory cost. Increasing the rank and alpha from 8→16 (C1 → C3) without using dense layers led to performance improvement i.e., accuracy went from 67% to 71%. Lower values of rank and alpha are more efficient but may underfit in low-resource settings. Mid-point like C3 offers a balance. Too high (r=32) might over-parameterize or overfit, especially with poor adapter design or training.
@@ -171,10 +201,48 @@ DoRA is intended to improve adaptation by separately modeling direction and scal
 |------------------------|---------------|-----------|----------|---------------|----------|----------|--------|
 | 8_8_no_dense (C1)      | 8             | 8         | 0.6700   | 0.9859        | 0.6800   | 0.6700   | 0.1191 |
 | 8_16_dense (C2)        | 8             | 16        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
-| 16_16_no_dense (C3)    | 16            | 16        | 0.7100   | 0.9896        | 0.7200   | 0.7100   | 0.1263 |
+| 16_16_no_dense (C3)	   | 16            | 16	       | 0.7100	  | 0.9896        |	0.7200	 | 0.7100	  | 0.1263 |
 | 32_32_dora (C4)        | 32            | 32        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
 | 32_32_no_dense (C5)    | 32            | 32        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
+| 16_16_rslora (C6)        | 16           | 16        | 0.6700   | 0.9817        | 0.6800   | 0.6700   | 0.1191 |
+| 16_16_pissa (C7)        | 16           | 16        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
+| 16_16_no_dense with full dataset(C8)    | 16            | 16        | 0.8591  | 0.9994       | 0.8591   | 0.8591   | 0.1528 |
 
 - 16_16_no_dense(C3) achieved the highest scores across all metrics.
 - Configurations with r=32 and α=32 (both with and without DoRA or dense modules) performed poorly indicating overfitting. This Ssggests that higher rank values do not guarantee better performance and may lead to degradation.
 - The 8_8_no_dense model showed decent performance (67% accuracy), making it a lightweight yet effective choice. However, it was consistently outperformed by the 16_16_no_dense model, showing that moderate rank (r=16) is a better tradeoff between model size and accuracy.
+
+- For the 16_16_no_dense model we have made inference on an online dataset after training with the 2 different cases i.e., a) full dataset and 1 epoch and b) a part of dataset with more epochs
+    - **Link to the dataset:** https://www.kaggle.com/datasets/henrychibueze/vqa-dataset
+    - Here are the metrics for both the cases
+      
+      | Case                             | Accuracy | BERTScore-F1  | ROUGE-L  | Token F1 | BLEU   |
+      |----------------------------------|----------|---------------|----------|----------|--------|
+      | Full dataset and 2 epoch         | 0.8591   | 0.9994 | 0.8591 | 0.8591 | 0.1528 |
+      | Part of the dataset (frac = 0.3) and 4 epochs | 0.8650 | 0.9994 | 0.8650 | 0.8650 | 0.1538 |
+
+      
+- For the last selected model i.e., **16_16_no_dense with a part of dataset and more number of epochs (4 epochs)**, the total number of parameters are 390,570,812 and trainable parameters are 5,898,240 (trainable%: 1.5102)
+
+## Links for all models
+https://www.kaggle.com/models/sasisnigdhayadavalli/blip-8-8-no-dense/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/blip-8-16-qkv/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/blip-16-16-no-dense/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/8-16-no-dense/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/8-16-no-dense/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/32-32-no-dense/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/32-32-dora-all-target-modules/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/16-16-rslora-no-dense-epoch2/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/16-16-rslora-no-dense/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/16-16-pissa-no-dense-epoch2/Transformers/default/1
+
+https://www.kaggle.com/models/sasisnigdhayadavalli/16-16-full-no-dense/Transformers/default/1
