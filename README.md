@@ -435,7 +435,7 @@ https://www.kaggle.com/models/sasisnigdhayadavalli/blip-8-8-no-dense/Transformer
 
 https://www.kaggle.com/models/sasisnigdhayadavalli/blip-8-16-qkv/Transformers/default/1
 
-https://www.kaggle.com/models/sasisnigdhayadavalli/blip-16-16-no-dense/Transformers/default/1
+https://www.kaggle.com/models/sasisnigdhayadavalli/blip-16-16-no-dense/Transformers/default/1 (selected model for inference on hidden dataset)
 
 https://www.kaggle.com/models/sasisnigdhayadavalli/8-16-no-dense/Transformers/default/1
 
