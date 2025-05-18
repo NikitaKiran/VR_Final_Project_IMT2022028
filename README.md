@@ -120,6 +120,8 @@ Here is an eaxmple of the same
 }
 
 ```
+- our final curated dataset contains of 1,59,176 rows and 3 columns which have the image path, question and answer. 
+
 ## Baseline model
 
 We experimented with several popular vision-language models including VILT, CLIP, BLIP-2, and GIT, but each had limitations that made them less suitable for our VQA task:
