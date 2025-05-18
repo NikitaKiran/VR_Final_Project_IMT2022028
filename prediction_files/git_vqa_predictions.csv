@@ -1,0 +1,6 @@
+image_path,question,answer,predicted_answer,correct
+/kaggle/input/abo-small/small/ff/ff69ee2e.jpg,What color is the item?,White,what color is the item?,False
+/kaggle/input/abo-small/small/ff/ff69ee2e.jpg,How many prongs are visible on each item?,Three,how many prongs are visible on each item?,False
+/kaggle/input/abo-small/small/ff/ff69ee2e.jpg,What is printed on the item's side?,AmazonBasics,what is printed on the item ' s side?,False
+/kaggle/input/abo-small/small/ff/ff69ee2e.jpg,Is there a ground pin present?,Yes,is there a ground pin present?,False
+/kaggle/input/abo-small/small/ff/ff69ee2e.jpg,What shape is the output socket?,Rectangle,what shape is the output socket?,False

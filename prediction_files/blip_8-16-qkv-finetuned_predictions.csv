@@ -1,0 +1,101 @@
+image_path,question,answer,predicted_answer
+/kaggle/input/abo-small/small/a2/a241b082.jpg,What is the shape of the peacock's crest?,Teardrop,no
+/kaggle/input/abo-small/small/af/af3498d7.jpg,What is printed on the case?,Text,no
+/kaggle/input/abo-small/small/ce/cebe3e4f.jpg,What color is the jar's lid?,Brown,no
+/kaggle/input/abo-small/small/4a/4a191376.jpg,How many camera lenses are visible?,Four,no
+/kaggle/input/abo-small/small/80/804fddde.jpg,Are the sheets perforated?,Yes,no
+/kaggle/input/abo-small/small/c4/c4c6194e.jpg,Does the case appear to be made of a rigid or flexible material?,Rigid,no
+/kaggle/input/abo-small/small/30/300f1b56.jpg,What object is near the top edge?,Camera,no
+/kaggle/input/abo-small/small/1b/1b313d7c.jpg,What color is partially covering the white?,Pink,no
+/kaggle/input/abo-small/small/69/69b3e398.jpg,How many sections comprise the artwork?,Nine,no
+/kaggle/input/abo-small/small/5d/5dee93af.jpg,What number is on the label?,365,no
+/kaggle/input/abo-small/small/05/055a1f5f.jpg,What is the dominant color of the sofa?,Beige,no
+/kaggle/input/abo-small/small/17/17252a84.jpg,What type of fastening mechanism is used for the hanging strap?,Buckle,no
+/kaggle/input/abo-small/small/78/783f9edb.jpg,What measurement unit follows '18'?,fl,no
+/kaggle/input/abo-small/small/e2/e29a3edd.jpg,What kind of backing is visible?,Post,no
+/kaggle/input/abo-small/small/34/34fec556.jpg,Is the phone case surface glossy?,Yes,no
+/kaggle/input/abo-small/small/90/90bd3036.jpg,What is the relative size difference between crystal and pearl?,Smaller,no
+/kaggle/input/abo-small/small/ec/ec39dade.jpg,What shape is the eraser?,Rectangular,no
+/kaggle/input/abo-small/small/cb/cb78efcc.jpg,What is the predominant texture depicted on the planter's exterior?,Crosshatch,no
+/kaggle/input/abo-small/small/9f/9f5c22cb.jpg,Is there an integrated handle?,Yes,no
+/kaggle/input/abo-small/small/63/635e3305.jpg,What is the apparent shape of the cross-section of the vertical support bars?,Rectangular,no
+/kaggle/input/abo-small/small/72/72e213b8.jpg,What shape are the armrests?,Curved,no
+/kaggle/input/abo-small/small/48/48d13464.jpg,What material is the case?,Plastic,no
+/kaggle/input/abo-small/small/21/21e9f2e7.jpg,What is the dominant color of the label?,Red,no
+/kaggle/input/abo-small/small/7a/7ae87b2d.jpg,How many bottles are in the image?,Three,no
+/kaggle/input/abo-small/small/4c/4c440451.jpg,Is there a visible pattern on the pillowcase?,No,no
+/kaggle/input/abo-small/small/bc/bcc5a9c8.jpg,Is there a visible brand logo on the shoes?,No,no
+/kaggle/input/abo-small/small/37/3721fedd.jpg,What word is on the green sticker?,Quality,no
+/kaggle/input/abo-small/small/4a/4a9b202f.jpg,Is there a visible pressure gauge?,No,no
+/kaggle/input/abo-small/small/c2/c248c71a.jpg,What geometric shape surrounds the eyes?,Rectangle,no
+/kaggle/input/abo-small/small/ec/ec02adca.jpg,How many corners are visible?,Four,no
+/kaggle/input/abo-small/small/ae/ae967a32.jpg,Is there a USDA organic seal present?,Yes,no
+/kaggle/input/abo-small/small/c7/c71e2122.jpg,What geometric shape is the folded tarp closest to?,Square,no
+/kaggle/input/abo-small/small/69/69776572.jpg,What is the primary color of the case?,Pink,no
+/kaggle/input/abo-small/small/f8/f8e3d2cb.jpg,What shape encompasses the lens?,Circle,no
+/kaggle/input/abo-small/small/ac/ac753005.jpg,What is the dominant color on the right?,Red,no
+/kaggle/input/abo-small/small/8a/8ad73e40.jpg,What percentage fat is the milk?,Two,no
+/kaggle/input/abo-small/small/e5/e5bf1621.jpg,What material is the bracket?,Steel,no
+/kaggle/input/abo-small/small/62/62b80396.jpg,Is the rug's pattern symmetrical?,Yes,no
+/kaggle/input/abo-small/small/4d/4d2b17cc.jpg,Is there a buckle visible?,No,no
+/kaggle/input/abo-small/small/1b/1ba4578f.jpg,Is the depicted design symmetrical?,Yes,no
+/kaggle/input/abo-small/small/c8/c825d8fe.jpg,What is the primary color of the box?,Peach,no
+/kaggle/input/abo-small/small/38/38c547f3.jpg,What is the approximate count of visible tiles?,Fifteen,no
+/kaggle/input/abo-small/small/8c/8c32282a.jpg,What primary color is behind the red?,Yellow,no
+/kaggle/input/abo-small/small/a5/a565a2e3.jpg,What is the color of the bed sheet?,White,no
+/kaggle/input/abo-small/small/7f/7ff73e9a.jpg,What material is pictured?,Denim,no
+/kaggle/input/abo-small/small/dd/dd4f50b5.jpg,Is a shadow visible on the case?,Yes,no
+/kaggle/input/abo-small/small/b2/b2c1bee0.jpg,Is the toe pointed or rounded?,Pointed,no
+/kaggle/input/abo-small/small/10/1086453a.jpg,How many bottles are in the image?,Two,no
+/kaggle/input/abo-small/small/62/62803d4e.jpg,What color family best describes the product?,Gold,white
+/kaggle/input/abo-small/small/8e/8e0365f7.jpg,How many temperature settings are visibly indicated?,,no
+/kaggle/input/abo-small/small/1b/1bdd1571.jpg,What is the top's color?,White,no
+/kaggle/input/abo-small/small/93/935d2451.jpg,What is the dominant color of the samosas?,Brown,no
+/kaggle/input/abo-small/small/b1/b182e0d1.jpg,What is the shape of each outlet?,Round,no
+/kaggle/input/abo-small/small/14/149a348f.jpg,What color is the internal wallpaper?,Pink,no
+/kaggle/input/abo-small/small/0b/0b64d159.jpg,How many distinct butterfly wing patterns are visible?,Four,no
+/kaggle/input/abo-small/small/57/57793844.jpg,What is the overall shape of the rug?,Rectangular,no
+/kaggle/input/abo-small/small/dc/dc30438b.jpg,Is there a noticeable pattern on the sheets?,No,no
+/kaggle/input/abo-small/small/c6/c6e22bcd.jpg,Does the product have a brand logo displayed?,No,no
+/kaggle/input/abo-small/small/ed/eddf0f7f.jpg,What is the earcup's predominant material?,Leather,no
+/kaggle/input/abo-small/small/75/75a795c7.jpg,What is the case's brand?,Solimo,no
+/kaggle/input/abo-small/small/0b/0b5bfbe9.jpg,Is the right side mainly horizontal?,Yes,no
+/kaggle/input/abo-small/small/9f/9f87103e.jpg,What shape is the camera cutout on the case?,Rectangle,no
+/kaggle/input/abo-small/small/ad/ad341bf8.jpg,How many sides does the color block in the logo have?,Four,no
+/kaggle/input/abo-small/small/af/af338790.jpg,What is written on the connector body?,Amazonbasics,no
+/kaggle/input/abo-small/small/8c/8c4c2146.jpg,What is the predominant color of the feather's barbs?,Green,no
+/kaggle/input/abo-small/small/fb/fb97eaea.jpg,What flavor is specified on the bag?,Cinnamon,no
+/kaggle/input/abo-small/small/58/58855591.jpg,What is the primary metal finish of the base?,Silver,no
+/kaggle/input/abo-small/small/c1/c14d5878.jpg,What shape describes the light cover?,Cylindrical,no
+/kaggle/input/abo-small/small/1e/1e6b64d4.jpg,How many complete cups are stacked?,Four,no
+/kaggle/input/abo-small/small/24/24d4f48e.jpg,Are there more than twenty small white figures?,Yes,no
+/kaggle/input/abo-small/small/b2/b2c1bee0.jpg,What is the strap fastener's shape?,Square,no
+/kaggle/input/abo-small/small/82/82523b94.jpg,What is the dominant color of the shoe?,Gray,no
+/kaggle/input/abo-small/small/8c/8c235046.jpg,What color is the foot pedal?,Silver,white
+/kaggle/input/abo-small/small/7e/7e1038aa.jpg,What is the lid's color?,Blue,no
+/kaggle/input/abo-small/small/d0/d0e0548d.jpg,What shape is the device?,Rectangle,no
+/kaggle/input/abo-small/small/be/be09c903.jpg,Are all the pegs on the board the same size?,Yes,no
+/kaggle/input/abo-small/small/49/49e9c08c.jpg,What word appears largest?,Rustic,no
+/kaggle/input/abo-small/small/d6/d6dff2ab.jpg,What is the primary color of the box in the upper right corner?,Blue,no
+/kaggle/input/abo-small/small/bd/bdb9a5d4.jpg,What material is the set made of?,Zinc,no
+/kaggle/input/abo-small/small/66/669d88d1.jpg,What is the dominant background color?,Pink,no
+/kaggle/input/abo-small/small/d0/d0e0548d.jpg,What is the flower's petal count most frequently?,Seven,no
+/kaggle/input/abo-small/small/9c/9c7df303.jpg,What color are the screws?,Silver,no
+/kaggle/input/abo-small/small/c1/c1f00ed0.jpg,How many servings does the meal kit claim to provide?,Two,no
+/kaggle/input/abo-small/small/bf/bf7992b0.jpg,What measurement unit is written?,Ounces,no
+/kaggle/input/abo-small/small/94/94751947.jpg,What number of lights are illuminated?,Four,no
+/kaggle/input/abo-small/small/bc/bc85f8c1.jpg,What word follows 'organic'?,buckwheat,no
+/kaggle/input/abo-small/small/a6/a6c49fc5.jpg,Is any part of the device brown?,Yes,no
+/kaggle/input/abo-small/small/bc/bc76d581.jpg,What color is the heel?,Orange,white
+/kaggle/input/abo-small/small/11/11ef5f19.jpg,What color are the stripes?,Black,no
+/kaggle/input/abo-small/small/d1/d19f1172.jpg,Are all the studs shown perfectly symmetrical?,Yes,no
+/kaggle/input/abo-small/small/9f/9f5f9485.jpg,What is the middle line's color?,Blue,no
+/kaggle/input/abo-small/small/d8/d8b439db.jpg,Is the product artificial?,No,no
+/kaggle/input/abo-small/small/db/dbd88fc1.jpg,What shape are the earbuds?,Oval,no
+/kaggle/input/abo-small/small/de/deba9214.jpg,Does the phone display a fingerprint icon?,Yes,no
+/kaggle/input/abo-small/small/fd/fdc48ff7.jpg,What is the dominant color of the sandals?,Tan,no
+/kaggle/input/abo-small/small/49/498b3566.jpg,What color is the metal?,Rose,no
+/kaggle/input/abo-small/small/1a/1a9a1e35.jpg,What material is the frame made of?,Aluminum,no
+/kaggle/input/abo-small/small/c7/c7f16dcb.jpg,How many curtain panels are shown?,Two,no
+/kaggle/input/abo-small/small/c1/c11c9511.jpg,What is the approximate number of visible stripes on the duvet cover?,Twelve,no
+/kaggle/input/abo-small/small/27/277aac03.jpg,What color is the phone case's edge?,Blue,no

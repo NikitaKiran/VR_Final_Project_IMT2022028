@@ -1,0 +1,1001 @@
+image_path,question,ground_truth_answer,predicted_answer
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000039540.jpg,Is this a one-dish meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000479011.jpg,Could this be homemade pizza?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000334713.jpg,Could this be city street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000297440.jpg,Is this a domesticated animal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000296676.jpg,Is this lady wearing shorts?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000209788.jpg,Is this a usual placement for traffic light fixtures?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000269815.jpg,Is this guy happy?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000222094.jpg,Is this a truck repair shop?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000080303.jpg,Is this a farm?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000384794.jpg,Could this be country road?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000207205.jpg,Could this be healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000000939.jpg,Could this be hotel bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000289716.jpg,Could this be big dog?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000260470.jpg,Is this a fancy restaurant?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000058772.jpg,Are there any any people in this photo?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000379800.jpg,Could this be truck?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000274939.jpg,Could this be rural community?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000241837.jpg,Could this be park?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000408950.jpg,Is this a rich part of town?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000062220.jpg,Could this be bull?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000496450.jpg,Is this a jungle?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000264572.jpg,Could this be professional game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000004212.jpg,Is this a driveway?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000394460.jpg,Could this be cabin?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000429386.jpg,Could this be celebration?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000559067.jpg,Could this be laundry room?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000370315.jpg,Is this man likely at a convention?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000147958.jpg,Is this gentleman skateboarding?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360629.jpg,Is this a traditional breakfast?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000025457.jpg,Could this be cluttered area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000391140.jpg,Is this gentleman wearing a tie?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000392915.jpg,Could this be tidy kitchen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000257076.jpg,Is this man wearing glasses?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000342770.jpg,Could this be coniferous woods?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000526143.jpg,Is this a scene in Africa?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000388026.jpg,Are there any any pedestrians in the street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000569450.jpg,Could this be gas stove?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000356169.jpg,Is this a paved road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000500703.jpg,Could this be rural area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000190041.jpg,Could this be skate park?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000527962.jpg,Could this be busy street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000235380.jpg,Could this be modern-day scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000413959.jpg,Are there any pigeons in the road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000546721.jpg,Are there any any yachts in the picture?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000369393.jpg,Is this lady younger than 75?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000429044.jpg,Is this a weekend activity?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000203085.jpg,Is this guy actually going to the bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000558611.jpg,Could this be real person?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000428248.jpg,Is this guy wearing a hat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000501062.jpg,Could this be salad?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000127477.jpg,Is this a short haired cat?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000464522.jpg,Could this be wild dog?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000221725.jpg,Could this be TV?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000493612.jpg,Is this a cow herd?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000431570.jpg,Is this gentleman racing a bicycle?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000553669.jpg,Is this a nice day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000499537.jpg,Is this a 4-way stop?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000252444.jpg,Is this man skating over the steps?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360175.jpg,Could this be family portrait?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000045648.jpg,Are there any birds in the water?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000222261.jpg,Is this a photo of your backyard?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000433919.jpg,Is this a messy bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000450202.jpg,Is this a fancy restaurant?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000249277.jpg,Could this be wooden bridge?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000135561.jpg,Could this be nice place?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000530860.jpg,Could this be city street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000238488.jpg,Is this a musical concert?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000270386.jpg,Could this be one way street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000057238.jpg,Could this be side by side refrigerator?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000491008.jpg,Could this be restaurant?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000451679.jpg,Are there any cars in this image?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000537132.jpg,Could this be wine tasting?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000045099.jpg,Is this a restroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000440093.jpg,Is this person standing on the ground?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000075888.jpg,Could this be healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000411941.jpg,Is this a large room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000163280.jpg,Is this a large laptop?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000419859.jpg,Is this a blue jay?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000365168.jpg,Is this a normal pasta dish?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000361244.jpg,Could this be wooden horse?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000045564.jpg,Could this be color photograph?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000545289.jpg,Could this be salad?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000512760.jpg,Could this be hair salon area?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000315722.jpg,Is this a one-dish meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000020788.jpg,Could this be restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000209530.jpg,Could this be hotel?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360346.jpg,Is this a passenger plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000116881.jpg,Could this be woman?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000416862.jpg,Could this be lab?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000266611.jpg,Is this a rainy day?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000064342.jpg,Is this lady old?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000302787.jpg,Could this be busy street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000171740.jpg,Could this be basement room?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000279154.jpg,Are there any weeds?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000006005.jpg,Are there any baby giraffes?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000353964.jpg,Is this a commercial airliner?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000287318.jpg,Is this a passenger train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000260547.jpg,Is this guy wearing glasses?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000412399.jpg,Is this person wet?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000431464.jpg,Is this a healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000196342.jpg,Is this a personal bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000174363.jpg,Could this be professional photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000346702.jpg,Is this a kitchen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000182736.jpg,Is this a sunny day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000331600.jpg,Is this a intersection?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000434527.jpg,Is this a family panic?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000110026.jpg,Could this be car holding all the items?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000099810.jpg,Could this be celebration?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000203631.jpg,Is this person dressed for the weather?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000389503.jpg,Could this be pond?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000173830.jpg,Is this person moving?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000427876.jpg,Is this a cloudy day?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000150538.jpg,Is this man thinking?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000337818.jpg,Could this be farmers market?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000332916.jpg,Is this a crowded corner?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000410221.jpg,Could this be color photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000276549.jpg,Is this a zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000211527.jpg,Is this a birthday party?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000445658.jpg,Are there any any magnets on the fridge?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000242940.jpg,Is this a traffic light?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000440212.jpg,Is this a healthy breakfast?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000342819.jpg,Could this be resort?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000429246.jpg,Is this woman in blue wearing a bikini?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000301817.jpg,Could this be medieval building?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000192810.jpg,Could this be park?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000498627.jpg,Is this person an amateur?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000199553.jpg,Is this man dressed for a hockey game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000511599.jpg,Is this a prosperous village?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000306230.jpg,Is this a busy shopping center?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000306585.jpg,Is this person a competitor?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000373539.jpg,Could this be gluten free meal?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000021001.jpg,Is this a hotel?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000359238.jpg,Is this man comfortable in his chair?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000122413.jpg,Is this man performing a safe activity?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000515422.jpg,Is this a rural scene?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000276945.jpg,Could this be stovetop-oven combo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000480416.jpg,Could this be European city?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000418251.jpg,Could this be painting?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000446743.jpg,Is this person wearing sneakers?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000554711.jpg,Is this lady dressed up to go out?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000341752.jpg,Are there any birds in the sky?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000478250.jpg,Could this be cul de sac?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000216516.jpg,Is this guy casting a shadow?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000178064.jpg,Could this be hotel room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000319423.jpg,Is this person racing?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000054654.jpg,Is this a fast food place?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000388085.jpg,Could this be busy time of day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000046269.jpg,Is this man wearing shorts?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000332318.jpg,Are there any trees nearby?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000399968.jpg,Is this gentleman in shape?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000307892.jpg,Could this be busy street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000130508.jpg,Could this be city setting?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000238029.jpg,Is this a healthy dinner?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000574837.jpg,Could this be menu?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000550162.jpg,Is this a sanitary work environment?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000539565.jpg,Could this be skate park?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000556426.jpg,Is this a bed pillow in the flowered cover?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000559707.jpg,Is this a large portion of food?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000340658.jpg,Is this person a good surfer?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000093405.jpg,Could this be grocery store?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000138086.jpg,Could this be brand new table?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000477805.jpg,Is this guy on the ground?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000090640.jpg,Is this a recent picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000275749.jpg,Could this be reflection?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000156302.jpg,Is this a grocery store?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000478312.jpg,Could this be large kitchen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000532403.jpg,Is this a comb?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000565761.jpg,Is this a room in a church?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000085145.jpg,Is this a fighter jet?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000316708.jpg,Is this a PlayStation?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000550051.jpg,Could this be street cafe?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000084474.jpg,Are there any any clouds in the sky?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000581205.jpg,Are there any any coffee mugs on the table?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000466838.jpg,Is this a normal size slice of pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000137622.jpg,Are there any any vehicles in the photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000451674.jpg,Could this be big city?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000409217.jpg,Could this be balanced meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000018295.jpg,Is this a change over area for trains?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000361073.jpg,Is this a train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000192091.jpg,Could this be cold atmosphere?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000437332.jpg,Is this man by himself on the street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000581887.jpg,Is this a driveway?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000354540.jpg,Could this be fire risk?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000255448.jpg,Are there any any forks?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000353148.jpg,Could this be class photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000113570.jpg,Could this be passenger train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000314515.jpg,Is this man riding a ducati?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000018295.jpg,Is this a passenger train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000250758.jpg,Are there any trees in the picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000276133.jpg,Is this a vegan dish?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000152774.jpg,Could this be zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000345134.jpg,Is this a fancy suitcase?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000486457.jpg,Could this be birthday party?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000198550.jpg,Is this a passenger train?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000287649.jpg,Is this a keyboard?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000480226.jpg,Is this a type of dog that should be taken to the groomer's regularly?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000061233.jpg,Is this guy dropping the item?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000318204.jpg,Is this a city scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000380459.jpg,Is this guy wearing a t shirt?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000392892.jpg,Could this be happy home?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000086432.jpg,Could this be professional game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000475439.jpg,Is this guy over 18?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000021397.jpg,Are there any any chips on the plate?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000112110.jpg,Is this guy drunk?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000279940.jpg,Is this person about the hit his face on the ground?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000236845.jpg,Could this be busy street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000163167.jpg,Is this a kitchen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000401004.jpg,Is this a bar?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000527086.jpg,Could this be meeting?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000296511.jpg,Could this be conveyor belt?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000255573.jpg,Is this a wireless keyboard?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000194729.jpg,Are there any bricks in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000041276.jpg,Is this a single engine aircraft?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000094944.jpg,Is this gentleman having fun?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000491872.jpg,Is this a toilet?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000190041.jpg,Is this a skate park?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000010123.jpg,Could this be professional photograph?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360624.jpg,Are there any any children in this picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000234518.jpg,Could this be kite?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000271897.jpg,Is this a real kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000034922.jpg,Are there any reflections in this photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000289754.jpg,Could this be zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000362409.jpg,Is this person athletic?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000283168.jpg,Could this be healthy meal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000331753.jpg,Is this a very crowded bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000152618.jpg,Is this a neighborhood?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000135167.jpg,Could this be vegetarian dish?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000458861.jpg,Could this be dangerous activity?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000535519.jpg,Are there any any cars in the scene?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000392892.jpg,Could this be bright kitchen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000391560.jpg,Could this be modern train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000297349.jpg,Is this a small airport?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000423892.jpg,Is this a religious celebration?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000437351.jpg,Is this woman actually traveling?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000576576.jpg,Is this a dorm room?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000467022.jpg,Is this a alcohol beverage?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000405007.jpg,Are there any buses in the street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000159449.jpg,Is this a modern fridge?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000154711.jpg,Could this be picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000495156.jpg,Could this be beach?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000147154.jpg,Could this be cooking show?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000243355.jpg,Is this a wild zebra?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000137185.jpg,Could this be professional photo?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000236985.jpg,Is this a bakery?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000127576.jpg,Could this be statue?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000389869.jpg,Are there any any birds in the water?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000013525.jpg,Could this be baby?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000424933.jpg,Is this a pro baseball player?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000331162.jpg,Could this be classroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000255592.jpg,Could this be school class?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000101031.jpg,Could this be color photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000090884.jpg,Is this gentleman engaging in friendly behavior?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000246612.jpg,Is this man happy?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000217783.jpg,Is this gentleman catching a plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000340472.jpg,Is this a harbor?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000017311.jpg,Could this be doctor riding on the horse?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000043997.jpg,Could this be public bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000482297.jpg,Is this a kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000231945.jpg,Is this gentleman parasailing?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000054533.jpg,Could this be television?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000201637.jpg,Could this be funny scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000498319.jpg,Is this a regular kitchen?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000459999.jpg,Is this a church?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000560440.jpg,Could this be remote area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000296816.jpg,Could this be zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000085772.jpg,Is this man serving the ball?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000340894.jpg,Is this a home office?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000266892.jpg,Is this lady wearing a skirt that is too short?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000223444.jpg,Could this be home office?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000133087.jpg,Are there any any cars in this photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000415153.jpg,Is this a real person?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000504827.jpg,Is this a hotel bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000520683.jpg,Is this a gothic building?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000468917.jpg,Is this a birthday cake?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000271852.jpg,Could this be little league game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000067563.jpg,Is this a street cafe?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000116261.jpg,Are there any any spectators?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000376937.jpg,Is this a black and white photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000333504.jpg,Could this be lighthouse?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000427980.jpg,Is this lady wearing makeup?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000576412.jpg,Could this be party for an elderly person?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000391794.jpg,Are there any wires on the desk?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000440352.jpg,Could this be ranch?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000018750.jpg,Could this be castle?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000320901.jpg,Could this be double decker bus?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000479440.jpg,Is this a short haired cat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000406591.jpg,Could this be good place for solace?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000170190.jpg,Are there any any white lines on the road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000249482.jpg,Is this a commercial plane?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000430341.jpg,Is this gentleman playing golf?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000493522.jpg,Is this a beautiful zebra?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000344832.jpg,Is this guy ready for the ball?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000134886.jpg,Could this be medical plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000149767.jpg,Is this a promotional event?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000020912.jpg,Is this a storage area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000135613.jpg,Is this a hotel room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000140664.jpg,Is this a vegetarian meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000565929.jpg,Is this a modern building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000424601.jpg,Could this be celebration?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000247141.jpg,Is this a gym?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000324340.jpg,Is this person wearing a wig?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000050100.jpg,Are there any any trees in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151075.jpg,Is this person wearing a wetsuit?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000395904.jpg,Could this be private kitchen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000256403.jpg,Is this a jail cell?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000470909.jpg,Is this a wine bar?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000434459.jpg,Is this a military event?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000182736.jpg,Could this be sunny day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000175539.jpg,Are there any any trees in the background?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000257336.jpg,Are there any any ready dishes?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000350833.jpg,Could this be big bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000213224.jpg,Are there any any lilies in one of the bases?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000032735.jpg,Is this person wearing gloves?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000083614.jpg,Could this be keyboard?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000163600.jpg,Is this person wearing a hat?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000185590.jpg,Are there any any clouds in the sky?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000526197.jpg,Could this be Italian restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000373713.jpg,Is this a home office?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000128110.jpg,Are there any any white lines on the road?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000022420.jpg,Is this a bookstore?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000183456.jpg,Is this a breakfast meal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000233298.jpg,Could this be fighter jet?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000566436.jpg,Could this be memorial bench?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000529139.jpg,Could this be park?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000361399.jpg,Is this person about to fall?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000493623.jpg,Is this a beauty salon?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360899.jpg,Is this a recent photo?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000564659.jpg,Is this a normal environment for broccoli?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000264771.jpg,Is this guy standing still?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000356169.jpg,Is this a beautiful scenery?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000009813.jpg,Is this a horse?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000280705.jpg,Is this a study?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000054965.jpg,Could this be normal plate?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000114164.jpg,Could this be dirt road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000389004.jpg,Could this be fancy meal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000298186.jpg,Is this a farm?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000350855.jpg,Is this a photograph of a painting?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000143901.jpg,Is this a wedding?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000067252.jpg,Is this a skate park?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000563951.jpg,Is this a professional match?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000035210.jpg,Is this a muffin?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000480210.jpg,Is this a good description of teamwork?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000103134.jpg,Is this a normal bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000020912.jpg,Could this be storage area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000195685.jpg,Is this a car accident?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000463084.jpg,Is this a one way street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000142240.jpg,Could this be professional kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000108674.jpg,Is this a good place to sleep?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000028236.jpg,Could this be train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000364145.jpg,Is this a romantic sunset?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000411727.jpg,Is this a suitcase?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000283748.jpg,Are there any clouds?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000084530.jpg,Could this be current photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000179045.jpg,Is this a child's room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000102858.jpg,Are there any any bricks in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000509695.jpg,Is this gentleman an experienced frisbee thrower?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000127455.jpg,Is this a residential area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000347377.jpg,Is this a Harbor?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000226634.jpg,Are there any cars visible?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000534565.jpg,Are there any trees visible?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000522425.jpg,Is this lady brushing her teeth?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000390569.jpg,Are there any any vehicles on the street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151832.jpg,Could this be guest bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000007241.jpg,Could this be doughnuts?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000424601.jpg,Could this be beach?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000220670.jpg,Is this a vegetarian pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000497348.jpg,Is this a city street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000526536.jpg,Could this be pizza for more than one person?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000320893.jpg,Could this be densely packed forest?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000578878.jpg,Is this gentleman in pain?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000413404.jpg,Is this a public place?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000549136.jpg,Could this be barb wired fence?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000536038.jpg,Is this guy sitting on a sofa?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000424812.jpg,Is this a healthy pastime?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000028655.jpg,Are there any trucks here?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000503724.jpg,Could this be subway?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000019484.jpg,Are there any any sharp utensils in this photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000205531.jpg,Could this be hospital?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000016775.jpg,Are there any any animals in the picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000487722.jpg,Is this a garage?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000352005.jpg,Is this man bald?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000135399.jpg,Is this a buffet?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000056036.jpg,Are there any slippers on the floor?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000032524.jpg,Could this be prized possession?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000301581.jpg,Is this person snowboarding?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000349689.jpg,Is this a roundabout?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000079229.jpg,Are there any predators in this picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000290979.jpg,Is this guy wearing gloves?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000219688.jpg,Is this a street sign?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000289594.jpg,Could this be recent photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000309859.jpg,Could this be grayscale image?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000089670.jpg,Could this be hamburger?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000156834.jpg,Could this be racetrack?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000104612.jpg,Could this be vegetarian dish?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000434511.jpg,Are there any any wires on the desk?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000028682.jpg,Could this be gas stove?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000067491.jpg,Could this be military plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000024744.jpg,Are there any people at the table?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000560623.jpg,Is this a Highland area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000491062.jpg,Are there any tomatoes on the plate?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000107084.jpg,Is this a kitchen room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000237459.jpg,Could this be memorial?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000281827.jpg,Could this be factory?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000456261.jpg,Is this gentleman tall?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000469795.jpg,Could this be poor persons home?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000207797.jpg,Are there any any clouds in the sky?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000460460.jpg,Is this a commercial establishment?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000315909.jpg,Could this be modern building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000540697.jpg,Are there any people in this photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000309264.jpg,Could this be pet store?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000371829.jpg,Is this guy downhill skiing?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000408112.jpg,Is this a Blue Angel aircraft?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000113413.jpg,Could this be boat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000334941.jpg,Is this guy happy to hear from the person communicating with her?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000485294.jpg,Could this be child's bed?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000516173.jpg,Is this woman a professional water surfer?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000033109.jpg,Is this a moving truck?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000414711.jpg,Could this be standard clock?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000208169.jpg,Are there any any cars?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000390627.jpg,Is this a suitcase?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000466784.jpg,Is this a professionally-done photograph?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000305803.jpg,Are there any any cars?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000188613.jpg,Are there any beaches on the picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000236412.jpg,Is this a veggie pizza?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000135579.jpg,Is this a healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000507135.jpg,Are there any any cars?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000147309.jpg,Is this a fancy desert?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000265069.jpg,Is this gentleman a wannabe biker?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000143107.jpg,Is this woman flying off of a cliff?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000572477.jpg,Is this gentleman wearing a purple outfit?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000261155.jpg,Could this be zoo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000544538.jpg,Is this a hotdog place?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000226571.jpg,Are there any sailboats in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000552075.jpg,Is this a reflection?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000079837.jpg,Could this be sailing boat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000159738.jpg,Is this a close up picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000449454.jpg,Is this a personal sized pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000173245.jpg,Is this gentleman riding on skis?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000576052.jpg,Is this person looking for someone?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000204650.jpg,Could this be cold day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000549718.jpg,Is this a double decker?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000054533.jpg,Is this a television?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000167044.jpg,Is this a cake?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000166624.jpg,Could this be competition?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000359238.jpg,Is this gentleman comfortable in his chair?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000261097.jpg,Is this man about to catch something?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000027768.jpg,Is this a bus for the public?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000075857.jpg,Could this be church?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000286119.jpg,Could this be man's hand?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000035891.jpg,Is this a busy street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000550103.jpg,Are there any clouds in the sky?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000142774.jpg,Could this be small town?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000352936.jpg,Is this a crow?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000093411.jpg,Is this a passenger plane?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000411201.jpg,Are there any tourists on the bus?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000113333.jpg,Are there any any people in this picture?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000036607.jpg,Is this a new phone?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000519801.jpg,Is this a freight train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000300138.jpg,Could this be tea set?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000448078.jpg,Could this be candy store?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000270593.jpg,Are there any any animals on the shore?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000334826.jpg,Are there any any spices on the pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000393284.jpg,Is this person flying?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000199122.jpg,Could this be pro game?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000515962.jpg,Are there any any baby giraffes in this picture?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000071072.jpg,Could this be bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151657.jpg,Could this be military ceremony?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000220224.jpg,Could this be very tall building?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000126340.jpg,Could this be selfie?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000029346.jpg,Is this a birthday cake?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000409921.jpg,Is this a train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000415196.jpg,Is this a luxury hotel?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000353489.jpg,Could this be high speed train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000557830.jpg,Could this be two player sport?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000288062.jpg,Could this be contemporary room?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000147980.jpg,Could this be team organized game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000404237.jpg,Could this be vegan meal?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000448359.jpg,Could this be tennis camp for kids?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000408327.jpg,Is this person famous?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000426061.jpg,Is this a passenger train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000438304.jpg,Could this be recent advert?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000026432.jpg,Is this a normal place for an umbrella?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000035711.jpg,Could this be zoo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000088349.jpg,Could this be pizza?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360818.jpg,Is this a grayscale image?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000577893.jpg,Could this be clay court?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000555748.jpg,Is this a busy place?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000344410.jpg,Is this man a tennis player?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000025034.jpg,Is this a lake?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000016958.jpg,Is this a bathtub?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000518530.jpg,Is this a sunny day?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000357385.jpg,Is this person wearing glasses?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000222908.jpg,Could this be house?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000539971.jpg,Could this be place  where animals normally sleep?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000417987.jpg,Is this a farm?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000261535.jpg,Could this be modest young woman?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000475195.jpg,Are there any vegetable in the picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000187424.jpg,Could this be residential area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000412094.jpg,Is this a small town?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000384461.jpg,Could this be new picture?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000022324.jpg,Is this a blurred photo?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000258266.jpg,Could this be good model to buy for a bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000156474.jpg,Are there any drinks on the desk?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000385174.jpg,Is this a healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000509826.jpg,Could this be beach?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000523175.jpg,Is this a solid meal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000087393.jpg,Is this a Little League game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000225792.jpg,Is this a demonstration?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000397327.jpg,Could this be very crowded bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000496800.jpg,Could this be passenger train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000575921.jpg,Is this man happy?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000574166.jpg,Is this a plastic shower curtain?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000557324.jpg,Could this be Hawaiian pizza?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000361901.jpg,Could this be vegan meal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000320218.jpg,Could this be desert?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000141910.jpg,Is this a designer bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000534127.jpg,Could this be safe sport?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000267844.jpg,Is this a real kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000035489.jpg,Is this a dog?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000254277.jpg,Is this a flower shop?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000105734.jpg,Could this be ski lodge?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000573932.jpg,Could this be zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000279097.jpg,Is this a one way street?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000099186.jpg,Could this be country road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000235244.jpg,Are there any carrots on the plate?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000315209.jpg,Is this a wide angle view?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000546160.jpg,Is this a sunny day?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000013639.jpg,Is this gentleman getting dressed to play pool?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000062198.jpg,Is this man wearing a wetsuit?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000177015.jpg,Is this man wearing a ring?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000176799.jpg,Are there any any graffitis there?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000162067.jpg,Is this man an experienced skater?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000020395.jpg,Are there any mountains in the background?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000223243.jpg,Could this be professional game?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000071361.jpg,Could this be man-made exhibit?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000193605.jpg,Is this a farmers' market?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000429142.jpg,Is this man outside?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000524889.jpg,Is this a lonely scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000099741.jpg,Are there any people around?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000219688.jpg,Could this be pizza oven?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000352445.jpg,Is this a shop?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000501062.jpg,Could this be vegetarian dish?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000206757.jpg,Is this a residential neighborhood?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000315432.jpg,Is this a pond?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000158660.jpg,Is this a vegan meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000178592.jpg,Are there any any birds?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000143132.jpg,Could this be ride?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000366099.jpg,Could this be vegetarian pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000476597.jpg,Is this a restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000367619.jpg,Could this be cream cake?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000212261.jpg,Could this be restaurant?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000504297.jpg,Is this a hot dog?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000225786.jpg,Is this guy about to fall over?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000481130.jpg,Is this a snowy mountain?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000350794.jpg,Could this be koala bear?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000335578.jpg,Is this lady trying to be sexy?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000098493.jpg,Could this be bus stop?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000133629.jpg,Could this be public place?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000148034.jpg,Is this a real animal?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000072582.jpg,Are there any any minorities in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000530407.jpg,Are there any any birds?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000502456.jpg,Could this be farm?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000201148.jpg,Is this a freight train?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000187887.jpg,Are there any boiled eggs in the container?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000399744.jpg,Could this be grocery store?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000049258.jpg,Could this be desktop computer?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000291696.jpg,Are there any any women on the teams?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000261318.jpg,Is this person waiting?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000188689.jpg,Could this be ferry?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000044579.jpg,Is this man married?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000271712.jpg,Could this be conventional bathroom?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000067558.jpg,Is this a shower?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000343053.jpg,Could this be clubhouse?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000497825.jpg,Is this gentleman wearing a spotted tie?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000391255.jpg,Are there any drinks on the table?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000135579.jpg,Could this be healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000130062.jpg,Is this a river?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000337619.jpg,Could this be skate park?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000333557.jpg,Could this be black and white picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000064746.jpg,Are there any fences in the picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000290602.jpg,Are there any trees in this picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000403919.jpg,Are there any people?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000554711.jpg,Could this be hotel room?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000244633.jpg,Could this be smartphone?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000045550.jpg,Is this gentleman clean shaven?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000523869.jpg,Is this a balanced meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000393093.jpg,Is this a black and white photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000247473.jpg,Is this gentleman eating naked?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000340934.jpg,Is this a plastic shower curtain?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000018918.jpg,Are there any any windows in this room?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000179311.jpg,Could this be new plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000024386.jpg,Is this woman pooping?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000565597.jpg,Is this a cheese pizza?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000474119.jpg,Could this be typical place for a phone?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000543118.jpg,Could this be bookstore?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000144809.jpg,Could this be renovation?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000240287.jpg,Is this guy in water?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000196085.jpg,Could this be special event?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000228867.jpg,Is this a tour group?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000008021.jpg,Could this be projector?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000573932.jpg,Are there any fruits on the branches hanging from the tree in front of the giraffe?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000533281.jpg,Is this a restaurant?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000376368.jpg,Are there any any people in sight?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000174198.jpg,Could this be steam engine train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000191949.jpg,Could this be well attended event?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000333504.jpg,Is this a lighthouse?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000361123.jpg,Is this a cold-weather animal?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000165589.jpg,Could this be functioning blender?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000557573.jpg,Is this a naturally occurring flower?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000434511.jpg,Is this gentleman in a restaurant?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000214527.jpg,Are there any any people next to this building?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000084533.jpg,Could this be common vehicle to see on the street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000202228.jpg,Is this man taking a picture with a cell phone?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000167725.jpg,Is this a professional game?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000519784.jpg,Are there any any motorbikes on the street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000410855.jpg,Are there any cars on the road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000365099.jpg,Is this man in a competition?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000323668.jpg,Is this a color picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000428847.jpg,Could this be new building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000579034.jpg,Is this a smartphone?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000160728.jpg,Are there any sailing boats in the water?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000235964.jpg,Is this woman holding up a camera?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000104345.jpg,Are there any any windows?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000065357.jpg,Is this a toy?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000076351.jpg,Is this a young animal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000571364.jpg,Are there any toys in the picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000062878.jpg,Could this be picture taken recently?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000386277.jpg,Could this be vegetable?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000205677.jpg,Could this be new building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000045392.jpg,Is this gentleman a professional ball player?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000035897.jpg,Is this a surface view angle?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000193245.jpg,Is this a campground?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000177802.jpg,Are there any plants by the window?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000482485.jpg,Could this be park?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000452947.jpg,Is this a living room area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000160308.jpg,Is this a color photograph?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000213649.jpg,Could this be bus station?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000148272.jpg,Is this a domesticated animal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000514180.jpg,Is this a pizza place?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000414435.jpg,Is this a live person?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000503808.jpg,Is this guy riding downhill?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000264572.jpg,Is this a professional game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000032811.jpg,Could this be large bird?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000122678.jpg,Is this woman painting?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000183571.jpg,Could this be houseboat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000536990.jpg,Is this a color picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000245453.jpg,Is this guy having a hard time with the kite?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000362092.jpg,Are there any any clouds in the sky?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000003793.jpg,Is this a tour bus?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000429985.jpg,Is this a celebration?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000232598.jpg,Is this gentleman wearing a collared shirt?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000384849.jpg,Is this a full size van?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000363126.jpg,Is this guy wearing warm clothes?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000152482.jpg,Is this gentleman whispering?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000554607.jpg,Could this be vegan meal?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000329568.jpg,Could this be display?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000461805.jpg,Is this a dealership?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000102908.jpg,Could this be color picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000075655.jpg,Is this guy a teenager?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000373193.jpg,Is this a working bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000082052.jpg,Could this be woman on a skateboard?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000074465.jpg,Could this be passenger train?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000137954.jpg,Is this a color photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000470984.jpg,Could this be ski resort?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000318138.jpg,Is this person sad?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000555412.jpg,Could this be veggie pizza?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000292804.jpg,Is this a train station?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000398067.jpg,Are there any any towels in this picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000082662.jpg,Could this be new sign?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000490890.jpg,Could this be tower clock?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000022304.jpg,Is this gentleman svelte?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000481386.jpg,Is this woman dressed to represent another era?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000238980.jpg,Are there any clouds in the sky?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000136143.jpg,Could this be good place for disk golf?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000111036.jpg,Could this be range microwave?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000362483.jpg,Is this a new bear?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151231.jpg,Is this a city street?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000524621.jpg,Is this a zoo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000442136.jpg,Is this a skinny vehicle?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000175878.jpg,Could this be special occasion?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000446983.jpg,Could this be skate park?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000209570.jpg,Is this a chocolate cake?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000419974.jpg,Is this gentleman preparing food for a party?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000291251.jpg,Is this guy athletic?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000105053.jpg,Is this gentleman upside down?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000279846.jpg,Is this a traditional pizza in the U.S.?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000446743.jpg,Is this a school aged child?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000261471.jpg,Could this be one way street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000507301.jpg,Is this a cat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000488869.jpg,Could this be professional team?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000268322.jpg,Is this a resort?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000247587.jpg,Is this gentleman a hipster?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000371588.jpg,Is this a commercial aircraft?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000308974.jpg,Are there any clouds?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000507313.jpg,Could this be park?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000578454.jpg,Are there any windows in this room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000509223.jpg,Is this person riding a snowboard?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000105683.jpg,Is this a hotel room?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151084.jpg,Could this be beach?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000288270.jpg,Could this be tropical location?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000318171.jpg,Could this be zoo scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000327225.jpg,Could this be modern train engine?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000316596.jpg,Could this be healthy snack?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000444913.jpg,Is this man casually dressed?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000010400.jpg,Could this be new building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000436992.jpg,Are there any women in the picture?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000041773.jpg,Is this a city?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000153797.jpg,Is this man going to catch the ball?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000350675.jpg,Could this be real photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000125051.jpg,Could this be real picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000027326.jpg,Could this be vegan meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000381106.jpg,Could this be beach scene?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000134649.jpg,Could this be public restroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000147236.jpg,Is this a motorcycle store?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000037678.jpg,Could this be bar?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000039628.jpg,Is this a populated area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000275761.jpg,Could this be fighter jet?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000006688.jpg,Could this be forest?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000282940.jpg,Could this be passenger train?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000076257.jpg,Is this a professional rider?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000487428.jpg,Are there any any buses in the picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000534516.jpg,Are there any cars on the street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000379085.jpg,Could this be full boat?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000297425.jpg,Are there any any animals on the cake?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000493117.jpg,Is this a rural area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000525162.jpg,Is this guy in danger?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000156302.jpg,Could this be grocery store?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000215376.jpg,Is this guy in casual dress?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000541926.jpg,Is this a dessert?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000101473.jpg,Could this be closed phone?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000418692.jpg,Is this guy sleeping?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000359043.jpg,Could this be foreign country?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000402115.jpg,Is this man eating inside of a restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000301563.jpg,Could this be ski resort?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000133042.jpg,Could this be professional game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000106453.jpg,Is this a hotel beach?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000042225.jpg,Could this be collie?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000452121.jpg,Could this be bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000144162.jpg,Is this a restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000440507.jpg,Is this a child's suitcase?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000470909.jpg,Could this be restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151084.jpg,Is this a beach?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000164583.jpg,Are there any people in the photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000461036.jpg,Could this be chupacabra?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000565563.jpg,Could this be new neighborhood?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000060596.jpg,Could this be hotel?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000213978.jpg,Could this be vintage picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000545002.jpg,Is this guy good at skiing?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000298762.jpg,Could this be common animal to ride in the US?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000533276.jpg,Could this be recent photograph?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000083331.jpg,Is this a traffic light?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000021394.jpg,Could this be standard mode of transportation for these people?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000219271.jpg,Could this be one lane road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000527086.jpg,Is this a meeting?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000551974.jpg,Is this lady happy?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000533721.jpg,Is this a coffee cup?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000045594.jpg,Is this a paved road?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000192128.jpg,Could this be good idea for a rainy day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000223342.jpg,Is this a junk truck?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000356505.jpg,Is this lady black?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000472160.jpg,Is this a Honda bike?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000214007.jpg,Is this a new kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000030080.jpg,Could this be military jet?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000245145.jpg,Is this a rainforest?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000141597.jpg,Are there any black vehicles?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000500468.jpg,Is this a chicken farm?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000244539.jpg,Could this be vintage motorcycle?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000074465.jpg,Is this a passenger train?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000051685.jpg,Are there any clouds in the sky?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000465877.jpg,Is this guy a cook?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000103863.jpg,Could this be real life kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000293591.jpg,Could this be zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000545114.jpg,Could this be secret alien language?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000348941.jpg,Is this gentleman married?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000522613.jpg,Could this be winter scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000060610.jpg,Could this be bus stop?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000392048.jpg,Could this be healthy breakfast?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000356169.jpg,Could this be beautiful scenery?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000035711.jpg,Is this a zoo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000324435.jpg,Are there any any attendants Seen?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000408255.jpg,Is this gentleman well-groomed?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000491366.jpg,Could this be built-in TV?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000209604.jpg,Is this a deli?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000356708.jpg,Is this person wearing gloves?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000018982.jpg,Is this gentleman looking at the camera?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000004296.jpg,Could this be happy room?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000387042.jpg,Is this a professional game?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000243495.jpg,Is this a ladies' restroom?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000018794.jpg,Is this guy skiing?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000550013.jpg,Could this be flying dog?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000432179.jpg,Could this be passenger train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000284015.jpg,Is this a real photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000427193.jpg,Are there any animals on the rocks?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000227399.jpg,Is this a real train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000010785.jpg,Is this a heart healthy choice?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000102858.jpg,Are there any bricks in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000429582.jpg,Could this be new bear?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000178691.jpg,Are there any street lights?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000264335.jpg,Is this a hawk?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000187241.jpg,Is this gentleman speaking?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000089228.jpg,Is this man going to eat this entire sandwich?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000382307.jpg,Is this gentleman living hear?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000214204.jpg,Are there any any towels in this bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000064523.jpg,Is this a tennis team?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000280360.jpg,Is this a passenger plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000235914.jpg,Are there any any people around?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000420579.jpg,Could this be busy ski resort?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000474600.jpg,Is this a natural place for the animal to stand?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000081224.jpg,Could this be horse race?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000546428.jpg,Could this be break room?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000308264.jpg,Could this be color photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000067427.jpg,Could this be professional game?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000399567.jpg,Could this be passenger train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000269721.jpg,Is this gentleman talented at tennis?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000320026.jpg,Is this a class?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000468078.jpg,Is this a mommy?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000206757.jpg,Could this be residential neighborhood?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000545353.jpg,Is this a restaurant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000497021.jpg,Is this a beach?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000564109.jpg,Is this a baby giraffe?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000569917.jpg,Could this be comfortable bathroom setup?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000128014.jpg,Is this a hotel?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000143822.jpg,Is this a Wii controller?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000504297.jpg,Are there any paper napkins on the table?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000532732.jpg,Is this a teenager?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000388528.jpg,Could this be common shaped toilet seat?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000345869.jpg,Could this be medieval building?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000328940.jpg,Is this a bedroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000390760.jpg,Is this person above the Treeline?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360660.jpg,Could this be vegan dish?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000223241.jpg,Is this gentleman considered a nerd?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000314356.jpg,Is this gentleman riding a skateboard?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000565929.jpg,Could this be modern building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000493321.jpg,Could this be rainy day?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000032038.jpg,Could this be berry pie?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000384308.jpg,Is this a live animal?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000131539.jpg,Are there any trees visible?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000108243.jpg,Are there any clouds in the sky?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000345211.jpg,Is this a color photograph?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000410554.jpg,Is this guy a teenager?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000440123.jpg,Is this a balanced meal?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000197681.jpg,Is this a television?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000542234.jpg,Are there any other birds in the sky?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000306229.jpg,Are there any any clouds in the sky?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000298738.jpg,Is this a teddy bear?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000350675.jpg,Is this a real photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000181601.jpg,Could this be finch?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000400925.jpg,Is this guy wearing glasses?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000072255.jpg,Is this gentleman working?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000310572.jpg,Are there any any spices on the table?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000544065.jpg,Could this be team sport?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000066072.jpg,Is this man in open water?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000311385.jpg,Are there any any carrots?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000450400.jpg,Is this man standing on asphalt?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000253557.jpg,Is this a Nazi owned plane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000020947.jpg,Is this a brand new truck?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000185935.jpg,Is this a reflection?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000565230.jpg,Could this be commercial plane?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000275237.jpg,Could this be color photograph?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000246435.jpg,Is this a one way street?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000209682.jpg,Is this a room in a house?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000140582.jpg,Could this be bird family?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000063144.jpg,Is this man doing an extreme sport?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000512206.jpg,Are there any any butterflies in the photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000048332.jpg,Could this be military ceremony?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000561375.jpg,Is this a real bear?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000292991.jpg,Is this a person's home?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000482978.jpg,Is this a freight train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000343951.jpg,Is this a new boat?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000428847.jpg,Is this a new building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000273914.jpg,Could this be double decker bus?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000236308.jpg,Could this be calming scene?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000575441.jpg,Is this a houseboat?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000417957.jpg,Could this be sunny day at the beach?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000267837.jpg,Is this a competition?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000321195.jpg,Could this be car show?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000233830.jpg,Is this a healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000329261.jpg,Are there any letters in this image?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000287305.jpg,Could this be parking lot?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000379070.jpg,Are there any people on the street?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000223122.jpg,Is this a bathroom in someone's home?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000515176.jpg,Is this a laundry machine?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000563702.jpg,Could this be train?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000345849.jpg,Could this be playground?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000385005.jpg,Is this a museum?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000352478.jpg,Is this a farmers market?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000419777.jpg,Is this a safe sport?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000426166.jpg,Is this a good day to go bike riding?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000010496.jpg,Could this be black and white photo?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000047588.jpg,Could this be passenger train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000427865.jpg,Is this a snow scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000480021.jpg,Is this a photograph?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000392915.jpg,Are there any window treatments?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000479617.jpg,Are there any any vegetables?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000236338.jpg,Is this a stampede?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000492625.jpg,Could this be wine tasting session?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000571504.jpg,Is this a cloudy day?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000118564.jpg,Are there any clouds?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000523529.jpg,Is this a normal place for a bear to be found?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000324390.jpg,Are there any eggs?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000170292.jpg,Is this a legal tackle?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000533026.jpg,Could this be kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000228580.jpg,Is this man skiing?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000498489.jpg,Are there any any pets in the room?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000180800.jpg,Could this be marketplace?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000287318.jpg,Could this be passenger train?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000299254.jpg,Is this guy posing for a picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000219546.jpg,Is this a healthy breakfast?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000308278.jpg,Could this be summer scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000358399.jpg,Are there any any children in this picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000560368.jpg,Are there any window coverings in the room?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000280271.jpg,Is this a commercial airline?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000095297.jpg,Is this man eating cheese pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000578878.jpg,Is this man in pain?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000256250.jpg,Is this a park?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000388619.jpg,Are there any any baskets on the bikes?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000264599.jpg,Are there any people visibly walking around?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000510122.jpg,Is this a horse show?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000127455.jpg,Could this be residential area?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000269922.jpg,Are there any any trees in the picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000237350.jpg,Is this lady happy?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000358596.jpg,Could this be skate park?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000475439.jpg,Is this person over 18?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000253002.jpg,Is this a bus?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000215482.jpg,Is this a sport you would play?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000226984.jpg,Is this a model kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000534038.jpg,Is this a black and white photo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000435751.jpg,Is this a platform for crabs?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000280007.jpg,Is this a church?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000499109.jpg,Is this a big sandwich?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000360613.jpg,Could this be clip on tie?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000255718.jpg,Could this be new fire hydrant?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000060246.jpg,Is this a bride and groom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000347210.jpg,Is this a forest?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000569705.jpg,Is this a modern airplane?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000572592.jpg,Are there any any trees?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000283054.jpg,Are there any cars on the road?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000259421.jpg,Could this be Boeing 737?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000165422.jpg,Could this be church?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000184384.jpg,Is this a fiber-rich food offering?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000202138.jpg,Could this be professional flower arrangement?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000255448.jpg,Are there any forks?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000380244.jpg,Is this a kitchen?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000364157.jpg,Is this a hotel?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000082259.jpg,Is this person airborne?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000513555.jpg,Are there any any sailboats?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000008218.jpg,Is this a tower clock?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000420573.jpg,Is this a contemporary style building?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000415196.jpg,Is this a bathroom?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000477389.jpg,Could this be grassy area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000151334.jpg,Are there any any houses in the photo?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000475195.jpg,Are there any fruits in the image?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000522446.jpg,Is this man working?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000113867.jpg,Could this be church?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000223241.jpg,Could this be bachelor pad?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000047055.jpg,Could this be real house?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000252696.jpg,Are there any any shirts?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000097278.jpg,Is this guy wearing gloves?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000515303.jpg,Is this a two horsepower vehicle?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000451144.jpg,Are there any any clouds in the sky?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000468777.jpg,Is this a bullfrog?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000052627.jpg,Is this a safe place to stand?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000520503.jpg,Are there any street lights?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000199962.jpg,Is this gentleman dressed up?,yes,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000544432.jpg,Could this be large party?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000392905.jpg,Is this a bear?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000003209.jpg,Is this a full grown horse?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000191069.jpg,Could this be flip phone?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000100978.jpg,Could this be rural area?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000382122.jpg,Could this be place of worship?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000009801.jpg,Could this be newer model car?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000000520.jpg,Could this be high bridge?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000127135.jpg,Is this a cat?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000272049.jpg,Could this be new truck?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000562243.jpg,Is this gentleman being silly?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000515904.jpg,Is this a full bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000278512.jpg,Is this a typical US runway?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000206433.jpg,Is this gentleman on the right wearing a red neck tie?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000219676.jpg,Is this a Bed and Breakfast?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000314294.jpg,Could this be zoo?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000039472.jpg,Could this be real picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000409331.jpg,Is this guy wearing a hat?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000310597.jpg,Is this a professional game?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000312237.jpg,Could this be winter scene?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000336431.jpg,Could this be school aged child?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000008277.jpg,Could this be healthy meal?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000183393.jpg,Could this be bathroom?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000513064.jpg,Could this be shallow sink?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000442367.jpg,Is this a recent picture?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000543672.jpg,Are there any any glass items in this scene?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000491008.jpg,Is this a whole pizza?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000111099.jpg,Could this be black and white picture?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000465675.jpg,Could this be color photograph?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000557573.jpg,Could this be naturally occurring flower?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000023251.jpg,Is this a healthy dinner?,yes,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000242365.jpg,Is this woman angry?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000031620.jpg,Is this a birthday party?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000406899.jpg,Are there any purple sand toys?,no,no
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000566529.jpg,Is this man in a hospital?,no,yes
+/kaggle/input/d/henrychibueze/vqa-dataset/val2014-resised/COCO_val2014_000000176799.jpg,Are there any graffitis there?,yes,yes
