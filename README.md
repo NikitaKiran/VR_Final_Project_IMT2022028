@@ -389,19 +389,18 @@ We have also tried fien-tuning on VILT but it had high complexity, high resource
 |------------------------|---------------|-----------|----------|---------------|----------|----------|--------|
 | 8_8_no_dense (C1)      | 8             | 8         | 0.6700   | 0.9859        | 0.6800   | 0.6700   | 0.1191 |
 | 8_16_dense (C2)        | 8             | 16        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
-| 16_16_no_dense (C3)	   | 16            | 16	       | 0.7100	  | 0.9896        |	0.7200	 | 0.7100	  | 0.1263 |
+| 16_16_no_dense (C3)	   | 16            | 16	       | 0.7225	  | 0.9880        |	0.7323	 | 0.7227	  | 0.1285 |
 | 32_32_dora (C4)        | 32            | 32        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
 | 32_32_no_dense (C5)    | 32            | 32        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
 | 16_16_rslora (C6)        | 16           | 16        | 0.6700   | 0.9817        | 0.6800   | 0.6700   | 0.1191 |
 | 16_16_pissa (C7)        | 16           | 16        | 0.3300   | 0.9771        | 0.3350   | 0.3350   | 0.0598 |
-| 16_16_no_dense with full dataset(C8)    | 16            | 16        | 0.7225  | 0.9880       | 0.7323   | 0.7227   | 0.1285 |
-
+| 16_16_no_dense with full dataset(C8)    | 16            | 16        | 0.6155  | 0.9842       | 0.6247   | 0.6155   | 0.1095 |
 
 - 16_16_no_dense(C3) achieved the highest scores across all metrics.
 - Configurations with r=32 and α=32 (both with and without DoRA or dense modules) performed poorly indicating overfitting. This Ssggests that higher rank values do not guarantee better performance and may lead to degradation.
 - The 8_8_no_dense model showed decent performance (67% accuracy), making it a lightweight yet effective choice. However, it was consistently outperformed by the 16_16_no_dense model, showing that moderate rank (r=16) is a better tradeoff between model size and accuracy.
 
-- For the 16_16_no_dense model we have made inference on an online dataset after training with the 2 different cases i.e., a) full dataset and 1 epoch and b) a part of dataset with more epochs
+- For the 16_16_no_dense model we have made inference on an online dataset after training with the 2 different cases i.e., a) full dataset and 1 epoch and b) a part of dataset (frac = 0.3) with more epochs
     - **Link to the dataset:** https://www.kaggle.com/datasets/henrychibueze/vqa-dataset
     - Here are the metrics for both the cases
       
@@ -411,7 +410,25 @@ We have also tried fien-tuning on VILT but it had high complexity, high resource
       | Part of the dataset (frac = 0.3) and 4 epochs | 0.8650 | 0.9994 | 0.8650 | 0.8650 | 0.1538 |
 
       
-- For the last selected model i.e., **16_16_no_dense with a part of dataset and more number of epochs (4 epochs)**, the total number of parameters are 390,570,812 and trainable parameters are 5,898,240 (trainable%: 1.5102)
+- For the last selected model i.e., **16_16_no_dense with a part of dataset (frac = 0.3) and more number of epochs (4 epochs)**, the total number of parameters are 390,570,812 and trainable parameters are 5,898,240 (trainable%: 1.5102)
+
+## Challenges encountered:
+
+The dataset was very large to train upon and even though we have used accelerator, it was not quite useful. It took minimum of 15-20 hrs for training on the full dataset we have generated.
+
+The dataset was considerably large, and despite utilizing accelerators, the training process waws still time-consuming. Training typically required a minimum of 15 to 20 hours on the full dataset we have generated.
+
+## Dependencies
+
+- PyTorch for model training and inference.
+- Transformers (by Hugging Face) for using and fine-tuning the BLIP and other vision-language models.
+- PEFT (Parameter-Efficient Fine-Tuning) for implementing LoRA, DoRA, and related techniques.
+- BERTScore, ROUGE, BLEU for evaluation metrics.
+- Hugging Face Hub utilities for model and tokenizer access.
+- CUDA 12 and NVIDIA libraries for GPU acceleration and compatibility.
+- Common Python packages such as NumPy, Pandas, Matplotlib, and TQDM for data processing, visualization, and progress tracking.
+- Bits and Bytes module for running on cuda and optimisation.
+- All dependencies and exact versions are included in the `requirements.txt` file
 
 ## Links for all models
 https://www.kaggle.com/models/sasisnigdhayadavalli/blip-8-8-no-dense/Transformers/default/1
